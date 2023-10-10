@@ -1,0 +1,15 @@
+{
+    "uuid": "3df2dd93-fabb-464c-bf4d-4010c13811d1",
+    "displayName": "App\\Jobs\\SendNFeJob",
+    "job": "Illuminate\\Queue\\CallQueuedHandler@call",
+    "maxTries": 1,
+    "maxExceptions": 1,
+    "failOnTimeout": false,
+    "backoff": null,
+    "timeout": 120,
+    "retryUntil": null,
+    "data": {
+        "commandName": "App\\Jobs\\SendNFeJob",
+        "command": "O:19:\"App\\Jobs\\SendNFeJob\":15:{s:5:\"tries\";i:1;s:13:\"maxExceptions\";i:1;s:7:\"timeout\";i:120;s:24:\"\u0000App\\Jobs\\SendNFeJob\u0000nfe\";O:45:\"Illuminate\\Contracts\\Database\\ModelIdentifier\":4:{s:5:\"class\";s:14:\"App\\Models\\Nfe\";s:2:\"id\";i:728979;s:9:\"relations\";a:0:{}s:10:\"connection\";s:5:\"mysql\";}s:29:\"\u0000App\\Jobs\\SendNFeJob\u0000emitente\";O:45:\"Illuminate\\Contracts\\Database\\ModelIdentifier\":4:{s:5:\"class\";s:19:\"App\\Models\\Emitente\";s:2:\"id\";i:1598;s:9:\"relations\";a:3:{i:0;s:11:\"certificado\";i:1;s:5:\"plano\";i:2;s:7:\"usuario\";}s:10:\"connection\";s:5:\"mysql\";}s:3:\"job\";N;s:10:\"connection\";N;s:5:\"queue\";s:3:\"nfe\";s:15:\"chainConnection\";N;s:10:\"chainQueue\";N;s:19:\"chainCatchCallbacks\";N;s:5:\"delay\";O:13:\"Carbon\\Carbon\":3:{s:4:\"date\";s:26:\"2023-10-10 10:49:33.909760\";s:13:\"timezone_type\";i:3;s:8:\"timezone\";s:17:\"America\/Sao_Paulo\";}s:11:\"afterCommit\";N;s:10:\"middleware\";a:0:{}s:7:\"chained\";a:0:{}}"
+    }
+}
